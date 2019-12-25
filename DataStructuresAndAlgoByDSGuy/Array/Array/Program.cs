@@ -28,6 +28,14 @@ namespace Arrays
             // InsertForArray(arr, 10, 10);
             //  Console.WriteLine(AccessCell(arr,1));
             CustomArray<int> customArray = new CustomArray<int>(10, int.MinValue);
+            customArray.InsertAt(1, 90);
+            customArray.Traverse();
+            customArray.Delete(1);
+            customArray.Traverse();
+            customArray.InsertAt(9, 112);
+            customArray.AccessCell(9);
+            customArray.Search(112);
+            customArray.Search(11);
         }
         static void DeleteItem<T>(T[] arr, int location)
         {

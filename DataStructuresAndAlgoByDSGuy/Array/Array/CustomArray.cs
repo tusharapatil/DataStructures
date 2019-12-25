@@ -15,7 +15,9 @@ namespace Arrays
             size = sizeOfArray;
             if (!defaultValue.Equals(default(T)))
             {
+
                 Array.Fill(arr,defaultValue);
+                Console.WriteLine($"Array initialized with default value {defaultValue}");
                 this.defaultValue = defaultValue;    
             }
         }
@@ -43,6 +45,7 @@ namespace Arrays
                 if (arr[location].Equals(defaultValue))
                 {
                     arr[location] = valueToBeInserted;
+                    Console.WriteLine($"value {valueToBeInserted} inserted at location {location}");
                 }
                 else
                 {
@@ -81,6 +84,7 @@ namespace Arrays
                     if (arr[i].Equals(value))
                     {
                         location = i;
+                        Console.WriteLine($"value {value} found at index {location}");
                     }
                 }
             }
