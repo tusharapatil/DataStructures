@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My study\\DataStructuresAndAlgoByDSGuy\\Array\\Array\\Arrays.csproj",
+      "projectUniqueName": "D:\\My study\\MyGitHub\\DataStructures\\DataStructures\\DataStructuresAndAlgoByDSGuy\\Array\\Array\\Arrays.csproj",
       "projectName": "Arrays",
-      "projectPath": "D:\\My study\\DataStructuresAndAlgoByDSGuy\\Array\\Array\\Arrays.csproj",
+      "projectPath": "D:\\My study\\MyGitHub\\DataStructures\\DataStructures\\DataStructuresAndAlgoByDSGuy\\Array\\Array\\Arrays.csproj",
       "packagesPath": "C:\\Users\\qtafh2\\.nuget\\packages\\",
-      "outputPath": "D:\\My study\\DataStructuresAndAlgoByDSGuy\\Array\\Array\\obj\\",
+      "outputPath": "D:\\My study\\MyGitHub\\DataStructures\\DataStructures\\DataStructuresAndAlgoByDSGuy\\Array\\Array\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

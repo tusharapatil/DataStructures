@@ -16,18 +16,18 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-           // Array<Animal> a = new Array<Animal>();
+            // Array<Animal> a = new Array<Animal>();
             //Mammoth[] mammoths = new Mammoth[10];
-           // Animal[] animals = mammoths;
+            // Animal[] animals = mammoths;
             // animals[1] = new Giraffe();
-            
-           // int [] arr;
-           // arr = new int[10] ;
-           // InsertForArray(arr, 2, 1);
+
+            // int [] arr;
+            // arr = new int[10] ;
+            // InsertForArray(arr, 2, 1);
             //InsertForArray(arr, 2, 1);
             // InsertForArray(arr, 10, 10);
-          //  Console.WriteLine(AccessCell(arr,1));
-          CustomArray<int> customArray = new CustomArray<int>()
+            //  Console.WriteLine(AccessCell(arr,1));
+            CustomArray<int> customArray = new CustomArray<int>(10, int.MinValue);
         }
         static void DeleteItem<T>(T[] arr, int location)
         {

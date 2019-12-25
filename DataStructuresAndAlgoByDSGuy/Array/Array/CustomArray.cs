@@ -8,13 +8,15 @@ namespace Arrays
     {
         private T[] arr;
         private int size;
+        private T defaultValue = default(T);
         public CustomArray(int sizeOfArray,T defaultValue)
         {
             arr = new T[sizeOfArray];
             size = sizeOfArray;
             if (!defaultValue.Equals(default(T)))
             {
-
+                Array.Fill(arr,defaultValue);
+                this.defaultValue = defaultValue;    
             }
         }
 
@@ -38,7 +40,7 @@ namespace Arrays
         {
             try
             {
-                if (arr[location].Equals(default(T)))
+                if (arr[location].Equals(defaultValue))
                 {
                     arr[location] = valueToBeInserted;
                 }
@@ -55,7 +57,7 @@ namespace Arrays
 
         public T AccessCell(int location)
         {
-            T cellValue = default(T);
+            T cellValue = defaultValue;
             try
             {
                 cellValue = arr[location];
@@ -94,7 +96,7 @@ namespace Arrays
         {
             try
             {
-                arr[location] = default(T);
+                arr[location] = defaultValue;
             }
             catch (IndexOutOfRangeException)
             {
