@@ -28,6 +28,10 @@ namespace Arrays
      search                 o(n) or o(mn)      o(1)
      delete                 o(1)               o(1)
      access                 o(1)               o(1)
+
+    Used In :
+    1. Dynamic programming (2D array) to reduce time complexity by sacrificing space complexity
+    2. Hashtables (1D array)
          */
     #endregion
     class Program
