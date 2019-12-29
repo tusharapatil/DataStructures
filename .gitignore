@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DataStructuresAndAlgoByDSGuy/DataStructures/Array/bin/Debug/netcoreapp2.2
+/DataStructuresAndAlgoByDSGuy/DataStructures/Array/obj/Debug/netcoreapp2.2
+/DataStructuresAndAlgoByDSGuy/DataStructures/Array/obj
+/DataStructuresAndAlgoByDSGuy/DataStructures/LinkedLists/obj/Debug/netcoreapp2.2
+/DataStructuresAndAlgoByDSGuy/DataStructures/LinkedLists/obj
+/DataStructuresAndAlgoByDSGuy/DataStructures/.vs/DataStructures/v15

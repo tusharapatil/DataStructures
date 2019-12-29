@@ -15,6 +15,11 @@ namespace Arrays
 
     #region Array Info
     /*
+     linear data structure also physical data structure
+     Memory is allocated in seqential manner for any dimential array
+     int[] arr = new int[10]--> here arr stores location of 1st cell and subsequent 
+     index address can be calculated by addressof(arr[0]) + index * (memory required for type (int 4byte))
+     thats why arrays have 0 based indexing
      When to use:
      1. When have large number of values of same type and number is known in advanced
      2. Lot of random access operations     
